@@ -21,8 +21,10 @@
   --stroke-default: #D6D3D1;
   --stroke-highlight: #F3541C;
   --semantic-error: #DC2626;
+
+  zoom:60%;
   
-  --font-family: "Poppinsh", sans-serif;
+   --font-family: "Poppinsh", sans-serif;
   --h1: 400 2rem/1.2 var(--font-family);
   --h2: 400 1.5rem/1.2 var(--font-family);
   --h3: 400 1.25rem/1.2 var(--font-family);
@@ -39,7 +41,7 @@ body{
 }
 
 h1, h2{
-  color: var(--text-primary)
+  color: var(--text-primary);
 }
 
 img {

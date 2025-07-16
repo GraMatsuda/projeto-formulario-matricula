@@ -42,7 +42,7 @@ aside{
 
   & h2{
     font: 600 2.5rem/1.25 var(--font-family);
-    /* margin-bottom: .5rem; */
+    margin-bottom: .5rem;
 
     & span{
       color: var(--text-highlight);
