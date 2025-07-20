@@ -43,7 +43,7 @@
 
             <div class="select-wrapper">
               <label for="gender">Sexo</label>
-              <select name="gender" id="gender" name="gender">
+              <select name="gender" id="gender">
                 <option value="female">Feminino</option>
                 <option value="male">Masculino</option>
                 <option value="NA">Prefiro não responder</option>
@@ -105,7 +105,7 @@
               <div class="input-wrapper flex-2">
                 <label for="city">Cidade</label>
                 <input type="text" id="city" nam e="city" value="São Paulo" disabled>
-              </div> 
+              </div>
 
               <div class="input-wrapper flex-1">
                 <label for="state">Estado</label>
@@ -114,7 +114,7 @@
             </div>
 
           </fieldset>
-          
+
           <fieldset class="gardian">
             <legend>Informações do responsável</legend>
 
@@ -137,34 +137,32 @@
                 <span>Insira um e-mail válido</span>
               </div>
             </div>
-
-          </fieldset class="enroll-options">
-          <legend>Opções de matricula</legend>
-          <label>Selecione o turno de estudo.</label>
-          <div class="radio-wrapper">
-            <div class="radio-inner">
-              <div class="radio-image">
-                <input type="radio" class="study-shift"
-                value="morning" id="morning">
-                <img src="assets/icons/sun-cloud-02.svg" alt="Ícone de sol com nuvem">
-                <label for="morning">Manhã</label>
-              </div>
-            </div>
-
-            <div class="radio-inner">
-              <div class="radio-image">
-                <input type="radio" class="study-shift"
-                value="evening" id="evening">
-                <img src="assets/icons/sun-02.svg" alt="Ícone de sol">
-                <label for="evening">Tarde</label>
-              </div>
-            </div>
-            
-          </div>
-          <fieldset>
-
           </fieldset>
 
+          <fieldset class="enroll-options">
+            <legend>Opções de matricula</legend>
+
+            <div class="input-wrapper">
+              <label>Selecione o turno de estudo.</label>
+
+              <div class="radio-wrapper">
+
+                <div class="radio-inner">
+                  <div class="radio-image"></div>
+                  <input type="radio" name="study-shift" value="morning" id="morning">
+                  <img src="assets/icons/sun-cloud-02.svg" alt="Ícone de sol com nuvem">
+                  <label for="morning">Manhã</label>
+                </div>
+
+                <div class="radio-inner">
+                  <div class="radio-image"></div>
+                  <input type="radio" name="study-shift" value="evening" id="evening">
+                  <img src="assets/icons/sun-02.svg" alt="Ícone de sol">
+                  <label for="evening">Tarde</label>
+                </div>
+              </div>
+            </div>
+          </fieldset>
         </form>
       </div>
     </main>
